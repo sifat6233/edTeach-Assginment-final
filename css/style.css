@@ -27,3 +27,13 @@ costume css
   width: 570px;
   color: #777777;
 }
+
+.single-course-info h2{
+  color: #4A4A4A;
+}
+.single-course-info p{
+  font-size: 15px;
+}
+.single-learning-info{
+  background-color: #F4FAFD;
+}
