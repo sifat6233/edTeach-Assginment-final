@@ -11,10 +11,6 @@ costume css
 }
 .img-height img{
   height: 500px;
-
-}
-.opacity-color {
-  background: rgb(0 0 0);
 }
 .text-color{
   color: #ffffffb5
@@ -22,4 +18,12 @@ costume css
 .carousel-caption {
   bottom: 5.25rem;
   left: 25%;
+}
+.title-width{
+  width: 400px !important; 
+
+}
+.title-width-p{
+  width: 570px;
+  color: #777777;
 }
