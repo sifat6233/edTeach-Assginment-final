@@ -37,3 +37,9 @@ costume css
 .single-learning-info{
   background-color: #F4FAFD;
 }
+.card-body p{
+  font-size: 14px;
+}
+.freedback-img-icon img{
+  width: 50px;
+}
