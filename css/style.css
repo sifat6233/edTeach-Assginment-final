@@ -43,3 +43,24 @@ costume css
 .freedback-img-icon img{
   width: 50px;
 }
+
+label.col-sm-2.col-form-label {
+  font-weight: bold;
+  margin-right: 10px;
+  color: white;
+}
+
+.single-course-img .img-fluid{
+  width: 100%;
+}
+
+/* mobile device  */
+@media screen and (max-width: 700px) {
+  .single-courses{
+    margin-top: 30px;
+    display: block !important;
+  }
+  .single-course-info{
+    padding-top: 30px;
+  }
+}

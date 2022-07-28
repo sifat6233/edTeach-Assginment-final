@@ -23,19 +23,19 @@
     <div class="collapse navbar-collapse ms-5 ps-5" id="navbarScroll">
       <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
         <li class="nav-item me-4">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
         </li>
         <li class="nav-item me-4">
-          <a class="nav-link" href="#">Courses</a>
+          <a class="nav-link" href="#courses">Courses</a>
         </li>
         <li class="nav-item me-4">
-          <a class="nav-link" href="#">Success</a>
+          <a class="nav-link" href="#success">Success</a>
         </li>
         <li class="nav-item me-4">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item me-4">
-          <a class="nav-link" href="#">Register</a>
+          <a class="nav-link" href="#register">Register</a>
         </li>
       </ul>
       <form class="d-flex" role="search">
@@ -48,14 +48,14 @@
   <!-- header-nav-section-end -->
 
   <!--header-slider-section-start-->
-  <div class="container"> 
+  <div class="container" id="home"> 
     <div id="carouselExampleDark" class="carousel carousel-dark slide  img-height"        data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item rounded active bg-dark " data-bs-interval="3000">
           <div class="opacity-50 "> 
             <img src="images/cover/cover-1.png" class="d-block w-100 " alt="...">
           </div>
-          <div class="carousel-caption d-none d-md-block w-50">
+          <div class="carousel-caption d-block w-50">
             <h5 class="text-light fs-1">Start Learning Everyday</h5>
             <p class="text-color py-3">As a knowledge company, Great Minds seeks to teach a deep understanding of the world through content-rich courses.</p>
             <button type="button" class="btn btn-primary btn-lg">Get Started</button>
@@ -65,7 +65,7 @@
           <div class="opacity-50 "> 
             <img src="images/cover/cover-2.png" class="d-block w-100 " alt="...">
           </div>
-          <div class="carousel-caption d-none d-md-block w-50">
+          <div class="carousel-caption d-block  w-50">
             <h5 class="text-light fs-1">Listening Audio Music</h5>
             <p class="text-color py-3">To celebrate our favourite time of the year, Audiobook Month, we’ve decided to treat two of our lucky followers to a listen-tastic giveaway! To be entered to win, like or follow us on social media (below). Each follow will count</p>
             <button type="button" class="btn btn-primary btn-lg">Get Started</button>
@@ -75,7 +75,7 @@
           <div class="opacity-50 "> 
             <img src="images/cover/cover-3.png" class="d-block w-100 " alt="...">
           </div>
-          <div class="carousel-caption d-none d-md-block w-50">
+          <div class="carousel-caption d-block  w-50">
             <h5 class="text-light fs-1"> If You Work Hard, You Can Shine In life </h5>
             <p class="text-color py-3">May this site be a place that you can escape to, to reassurance and encouragement you need to step boldly and
           keeps us small. But the world is done an injustice when you don’t shine.</p>
@@ -98,21 +98,23 @@
 
   <!--header-slider-section-end-->
 
-  <!--Courses-Section-start-->
-  <section class="container py-5"> 
+  <!----------------------------
+    Courses-Section-start
+  ----------------------------->
+  <section class="container py-5" id="courses"> 
     <div class="container-wrapper"> 
       <div class="title d-flex align-items-center justify-content-center flex-column"> 
         <h1 class="title-width text-center fw-bolder pt-5 mt-3">Discover Our Popular Courses</h1>
         <p class="text-center title-width-p mt-3">Please note that some of the links below are affiliate links and at no additional cost to you, I may earn a commission.</p>
       </div> 
 
-      <div class="courses"> 
+      <div class="courses mt-5"> 
         <div class="container overflow-hidden">
           <div class="row gy-4">
-            <div class="col-6">
+            <div class="col-12 col-md-12 col-lg-6">
               <div class="border rounded"> 
-                <div class="single-courses d-flex"> 
-                  <div class="single-course-img col-4"><img class="img-fluid" src="images/course/course-1.png" alt=""></div>
+                <div class="single-courses d-flex d-sm-dlock"> 
+                  <div class="single-course-img col-12 col-md-4 col-lg-4"><img class="img-fluid" src="images/course/course-1.png" alt=""></div>
                   <div class="single-course-info ps-4 d-flex justify-content-center flex-column"> 
                     <h2 class="fs-5 fw-bolder single">Fundamental Of UI/UX Design</h2>
                     <p class="text-secondary fw-semibold">Some quick example text to build on the card title and make up the bulk of the card.</p>
@@ -121,10 +123,10 @@
                 </div>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-12 col-md-12 col-lg-6">
               <div class="border rounded"> 
                 <div class="single-courses d-flex"> 
-                  <div class="single-course-img col-4"><img class="img-fluid" src="images/course/course-2.png" alt=""></div>
+                  <div class="single-course-img col-12 col-md-4 col-lg-4"><img class="img-fluid" src="images/course/course-2.png" alt=""></div>
                   <div class="single-course-info ps-4 d-flex justify-content-center flex-column"> 
                     <h2 class="fs-5 fw-bolder single">Javascript Basic to advanced</h2>
                     <p class="text-secondary fw-semibold">During this process, I used a consistent approach to analyze and compare.</p>
@@ -133,10 +135,10 @@
                 </div>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-12 col-md-12 col-lg-6">
               <div class="border rounded"> 
                 <div class="single-courses d-flex"> 
-                  <div class="single-course-img col-4"><img class="img-fluid" src="images/course/course-3.png" alt=""></div>
+                  <div class="single-course-img col-12 col-md-4 col-lg-4"><img class="img-fluid" src="images/course/course-3.png" alt=""></div>
                   <div class="single-course-info ps-4 pe-1 d-flex justify-content-center flex-column"> 
                     <h2 class="fs-5 fw-bolder single">Fundamental Of UI/UX Design</h2>
                     <p class="text-secondary fw-semibold">Whether you’ve just googled “ux design” for the first time.</p>
@@ -145,10 +147,10 @@
                 </div>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-12 col-md-12 col-lg-6">
               <div class="border rounded"> 
                 <div class="single-courses d-flex"> 
-                  <div class="single-course-img col-4"><img class="img-fluid" src="images/course/course-4.png" alt=""></div>
+                  <div class="single-course-img col-12 col-md-4 col-lg-4"><img class="img-fluid" src="images/course/course-4.png" alt=""></div>
                   <div class="single-course-info ps-4 d-flex justify-content-center flex-column"> 
                     <h2 class="fs-5 fw-bolder single">Digital Marketing</h2>
                     <p class="text-secondary fw-semibold">SThat’s a massive welcome to all 205,000+ of you, DMI Members.</p>
@@ -157,10 +159,10 @@
                 </div>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-12 col-md-12 col-lg-6">
               <div class="border rounded"> 
                 <div class="single-courses d-flex"> 
-                  <div class="single-course-img col-4"><img class="img-fluid" src="images/course/course-5.png" alt=""></div>
+                  <div class="single-course-img col-12 col-md-4 col-lg-4"><img class="img-fluid" src="images/course/course-5.png" alt=""></div>
                   <div class="single-course-info ps-4 d-flex justify-content-center flex-column"> 
                     <h2 class="fs-5 fw-bolder single">Photography Basic Rules</h2>
                     <p class="text-secondary fw-semibold">hotography is all about creativity, inspiration, and sharing your unique artistic vision.</p>
@@ -169,10 +171,10 @@
                 </div>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-12 col-md-12 col-lg-6">
               <div class="border rounded"> 
                 <div class="single-courses d-flex"> 
-                  <div class="single-course-img col-4"><img class="img-fluid" src="images/course/course-6.png" alt=""></div>
+                  <div class="single-course-img col-12 col-md-4 col-lg-4"><img class="img-fluid" src="images/course/course-6.png" alt=""></div>
                   <div class="single-course-info ps-4 d-flex justify-content-center flex-column"> 
                     <h2 class="fs-5 fw-bolder single">Motion Graphics</h2>
                     <p class="text-secondary fw-semibold">Motion graphics (sometimes mograph) are pieces of animation</p>
@@ -206,7 +208,7 @@
 
           </div>
         </div> -->
-        <div class="col">
+        <div class="col d-none d-sm-block">
           <div class="rounded">
             <div class="single-learning d-flex">
               <div class="single-course-img col-6"><img class="img-fluid" src="images/working.png" alt=""></div>
@@ -242,20 +244,59 @@
   </section>
   <!-- learning-section-end -->
 
-  <!-- Register-section-start -->
-  <section class="container py-5 my-5"> 
+  <!------------------------------------- Register-section-start -------------------------->
+  <section class="container py-5 my-5" id="register"> 
     <div class="register-wrapper bg-primary rounded"> 
       <div class="row"> 
           <div class="col">
             <div class="rounded">
-              <div class="single-courses d-flex justify-content-between">
-                <div class="single-course-img col-7 p-5 m-3">
+              <div class="single-register d-flex justify-content-between">
+                <div class="single-register col-7 p-5 m-3">
                   <h1 class="text-light">Ready to join?</h1>
                   <p class="text-white mt-3">It is a long established fact that a reader will be distracted by the
                     readable content of a page when looking at its layout.</p>
                 </div>
-                <div class="single-course-info ps-4 d-flex justify-content-center flex-column pe-5 me-4">
-                  <button type="button" class="btn btn-light text-primary btn-lg px-4 fw-semibold">Register Now</button>
+                <div class="single-course-info ps-4 d-flex justify-content-center flex-column pe-5 me-4 ">
+                  <!-- <button type="button" class="btn btn-light text-primary btn-lg px-4 fw-semibold">Register Now</button> -->
+                      <!-- ---------------modal---------------- -->
+                    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+                      tabindex="-1">
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            Show a second modal and hide this one with the button below.
+                          </div>
+                          <div class="modal-footer">
+                            <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open second
+                              modal</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal fade " id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+                      tabindex="-1">
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            Hide this modal and show the first with the button below.
+                          </div>
+                          <div class="modal-footer">
+                            <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to
+                              first</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <a class="btn btn-light text-primary btn-lg px-4 fw-semibold" data-bs-toggle="modal" href="#exampleModalToggle"
+                      role="button">Register Now</a>
                 </div>
               </div>
             </div>
@@ -267,7 +308,7 @@
   <!-- Register-section-end -->
 
   <!-- Successful-section-start -->
-  <section class="container"> 
+  <section class="container d-none d-sm-block d-md-block" id="success"> 
     <div class="successful-students"> 
       <div class="student-title w-50"> 
         <h1 class="fw-bolder">Meet Our Successful Students</h1>
@@ -315,10 +356,10 @@
   <!-- Successful-section-end -->
 
   <!-- Students-Feedbacks-section-start -->
-  <section class="container"> 
+  <section class="container" id="about"> 
     <div class="feedback"> 
       <div class="title d-flex align-items-center justify-content-center flex-column">
-        <h1 class="text-center fw-bolder pt-5 mt-3">Discover Our Popular Courses</h1>
+        <h1 class="text-center fw-bolder pt-5 mt-3">Some Students Feedback</h1>
         <p class="text-center title-width-p mt-3">Please note that some of the links below are affiliate links and at no
           additional cost to you, I may earn a commission.</p>
       </div>
@@ -393,7 +434,11 @@
   </section>
   <!-- Students-Feedbacks-section-end -->
 
-  <!-- Questions-section-start ---------------------------------------------------------->
+
+
+  <!--------------------------- 
+  Questions-section-start 
+  ------------------------------------->
   <section class="container"> 
     <div class="question"> 
       <div class="title d-flex align-items-center justify-content-center flex-column">
@@ -474,7 +519,9 @@
   </section>
   <!-- Questions-section-end -->
 
-  <!-- Companies-section-start -------------------------------->
+  <!-----------------------------
+  Companies-section-start -
+------------------------------->
   <section class="container"> 
     <div class="companies"> 
       <div class="title d-flex align-items-center justify-content-center flex-column">
@@ -489,7 +536,7 @@
         <div class="single-companies"><img class="img-fluid"  src="images/company/company-5.png" alt=""></div>
         <div class="single-companies"><img class="img-fluid"  src="images/company/company-6.png" alt=""></div> -->
         
-        <div class="container overflow-hidden text-center">
+        <div class="container overflow-hidden text-center pb-5">
           <div class="row gx-5">
             <div class="col">
               <div class="p-3"> <img class="img-fluid" src="images/company/company-1.png" alt=""></div>
@@ -517,17 +564,17 @@
   <!-- Companies-section-end -->
 
   <!-- Footer-section-start ------------------------------------------>
-  <footer class="bg-dark"> 
+  <footer class="bg-black text-white d-flex justify-content-center align-content-center text-center"> 
     <div class="footer-section"> 
-      <h2>Pro Edu</h2>
-      <p>Office 41, Zawaya Buildin, Ghala Muscat,</p>
-      <p>Sultanate of Oman</p>
-      <p>Privacy Ploicy | Terms of use</p>
-      <div class="social-icon"> 
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-brands fa-linkedin-in"></i>
-        <i class="fa-brands fa-tiktok"></i>
+      <h2 class="pt-5 pb-3 mt-5">Pro Edu</h2>
+      <p class="text-white-50">Office 41, Zawaya Buildin, Ghala Muscat,</p>
+      <p class="text-white-50">Sultanate of Oman</p>
+      <p class="text-white-50">Privacy Ploicy | Terms of use</p>
+      <div class="social-icon fs-4 mb-5 pb-5"> 
+        <a class="pe-3" href="https://www.facebook.com/"><i class="fa-brands fa-facebook text-light"></i></a> 
+        <a class="pe-3" href="https://twitter.com/home?lang=en"><i class="fa-brands fa-twitter text-light"></i></a> 
+        <a class="pe-3" href="https://www.linkedin.com/in/sifat-hossain-2aab181ab/"><i class="fa-brands fa-linkedin-in text-light"></i></a>
+        <a class="pe-3" href="https://www.tiktok.com/en/"><i class="fa-brands fa-tiktok text-light"></i></a>
       </div>
     </div>
   </footer>
