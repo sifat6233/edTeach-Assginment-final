@@ -19,12 +19,11 @@ costume css
   bottom: 5.25rem;
   left: 25%;
 }
-.title-width{
+/* .title-width{
   width: 400px !important; 
 
-}
+} */
 .title-width-p{
-  width: 570px;
   color: #777777;
 }
 
@@ -62,5 +61,13 @@ label.col-sm-2.col-form-label {
   }
   .single-course-info{
     padding-top: 30px;
+  
+  }
+  
+}
+
+@media screen and (max-width:900px) {
+  .single-register-info{
+    text-align: center;
   }
 }
